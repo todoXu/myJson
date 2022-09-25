@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(myJson VERSION 0.1.0)
+
+include(CTest)
+enable_testing()
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
+add_executable(myJson main.cpp ./myJson/Json.cpp ./myJson/Parser.cpp)
+include_directories(./myJson)
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

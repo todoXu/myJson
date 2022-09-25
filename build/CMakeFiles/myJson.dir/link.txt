@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/myJson.dir/main.cpp.o CMakeFiles/myJson.dir/myJson/Json.cpp.o CMakeFiles/myJson.dir/myJson/Parser.cpp.o -o myJson 
