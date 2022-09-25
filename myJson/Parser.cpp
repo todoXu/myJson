@@ -131,7 +131,6 @@ Json Parser::parse_number()
     //说明没有小数，直接转数字
     if (m_str[m_idx] != '.')
     {
-        printf("数字 %d\n", std::atoi(m_str.c_str() + pos));
         return Json(std::atoi(m_str.c_str() + pos));
     }
 
