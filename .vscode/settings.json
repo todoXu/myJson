@@ -91,7 +91,7 @@
         "editorBracketPairGuide.activeBackground3": "#45A9F9",
         "editorBracketPairGuide.activeBackground4": "#B084EB",
         "editorBracketPairGuide.activeBackground5": "#E6E6E6",
-        "editorBracketPairGuide.activeBackground6": "#19f9d8",
+        "editorBracketPairGuide.activeBackground6": "#19f9d8"
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
